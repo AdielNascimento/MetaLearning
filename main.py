@@ -17,5 +17,3 @@ metafeatures = Metafeatures()
 mfs = metafeatures.compute(X, Y)
 
 print(mfs)
-
-print("teste")
