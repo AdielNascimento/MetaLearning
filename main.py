@@ -10,8 +10,8 @@ print("Descrição do Index: ", base.index)
 print("Colunas presentes: ", base.columns)
 print("Colunas presentes: ", base.count)
 
-X = base.drop('variety', axis=1)
-Y = base['variety']
+X = base.drop('label', axis=1)
+Y = base['label']
 
 metafeatures = Metafeatures()
 mfs = metafeatures.compute(X, Y)
