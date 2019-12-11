@@ -18,5 +18,4 @@ mfs = metafeatures.compute(X, Y)
 
 print(mfs)
 
-
-print("funciona!")
+print("teste")
