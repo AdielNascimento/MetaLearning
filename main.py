@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from metalearn import Metafeatures
 
-base = pd.read_csv('iris.csv')
+base = pd.read_csv('kddcup99.csv')
 
 print("Informações da Base de Dados")
 print("Quantidade de linhas e colunas: ", base.shape)
