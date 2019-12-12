@@ -19,4 +19,5 @@ mfs = metafeatures.compute(X, Y)
 print(mfs)
 
 metafeatures_output = open('metafeatures_output.txt', 'w')
-metafeatures_output.write()
+
+metafeatures_output.close()
